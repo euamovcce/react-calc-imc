@@ -15,7 +15,7 @@ export const GridItem = ({ item }: Props) => {
 
             <div className="text-base font-bold mt-1.5">{item.title} </div>
             {item.yourImc &&
-                <div className="text-base mt-5">Seu IMC e de {item.yourImc} kg/m</div>
+            <div className="text-base mt-5">Seu IMC e de {item.yourImc} kg/m<sup>2</sup></div>
             }
             {!item.yourImc &&
                 <div>
